@@ -5,7 +5,7 @@ init:
 	git init
 	git remote add origin $(REPO_URL)
 
-test:
+test: 
 	poetry run pytest -s -v tests
 
 commit:
