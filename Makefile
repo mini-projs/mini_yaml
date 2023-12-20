@@ -10,7 +10,7 @@ commit:
 	git commit -a -m 'update'
 
 push: commit
-	git push origin master
+	git push
 
 clean:
 	echo "clean ..."
